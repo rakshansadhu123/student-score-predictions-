@@ -1,3 +1,5 @@
+library(caTools)
+library(ggplot2)
 data <- read.csv("https://raw.githubusercontent.com/AdiPersonalWorks/Random/master/student_scores%20-%20student_scores.csv")
 data
 set.seed(123)
